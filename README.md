@@ -41,49 +41,6 @@ body{background:var(--bg);color:var(--text);font-family:'Barlow',sans-serif;min-
 .btn{padding:0.6rem 1.2rem;border:none;cursor:pointer;font-family:'Barlow',sans-serif;font-size:0.78rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;transition:all 0.2s;border-radius:2px;}
 .btn-primary{background:var(--accent);color:#000;}
 .btn-primary:hover{background:#d4eb00;transform:translateY(-1px);}
-.btn-danger{background:var(--<!DOCTYPE html>
-<html lang="th">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>IRONCLUB PRO — Fitness Management</title>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;500;600;700&family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
-<style>
-:root{--bg:#0D0D0D;--surface:#141414;--card:#1A1A1A;--border:#2A2A2A;--accent:#E8FF00;--accent2:#FF4C00;--text:#F0F0F0;--muted:#666;--success:#00E676;--danger:#FF3D3D;--info:#00B4D8;}
-*{margin:0;padding:0;box-sizing:border-box;}
-html{scroll-behavior:smooth;}
-body{background:var(--bg);color:var(--text);font-family:'Barlow',sans-serif;min-height:100vh;}
-::-webkit-scrollbar{width:4px;}::-webkit-scrollbar-track{background:var(--bg);}::-webkit-scrollbar-thumb{background:var(--accent);border-radius:2px;}
-.app{display:flex;min-height:100vh;}
-
-/* SIDEBAR */
-.sidebar{width:240px;background:var(--surface);border-right:1px solid var(--border);display:flex;flex-direction:column;position:fixed;height:100vh;z-index:50;}
-.sidebar-logo{padding:1.5rem;border-bottom:1px solid var(--border);}
-.logo-text{font-family:'Bebas Neue',cursive;font-size:1.8rem;letter-spacing:0.1em;}
-.logo-text span{color:var(--accent);}
-.logo-badge{display:inline-block;background:var(--accent);color:#000;font-size:0.55rem;font-weight:700;letter-spacing:0.1em;padding:1px 5px;border-radius:2px;margin-left:4px;vertical-align:middle;}
-.logo-sub{font-size:0.6rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--muted);margin-top:2px;}
-.sidebar-nav{flex:1;padding:1rem 0;overflow-y:auto;}
-.nav-section{padding:0.4rem 1.5rem;font-size:0.58rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--muted);margin-bottom:0.2rem;margin-top:0.8rem;}
-.nav-item{display:flex;align-items:center;gap:0.75rem;padding:0.65rem 1.5rem;cursor:pointer;transition:all 0.2s;border-left:3px solid transparent;font-size:0.88rem;font-weight:500;color:var(--muted);}
-.nav-item:hover{color:var(--text);background:rgba(232,255,0,0.04);}
-.nav-item.active{color:var(--accent);border-left-color:var(--accent);background:rgba(232,255,0,0.06);}
-.nav-icon{font-size:1rem;width:20px;text-align:center;}
-.sidebar-footer{padding:1rem 1.5rem;border-top:1px solid var(--border);font-size:0.72rem;color:var(--muted);}
-
-/* MAIN */
-.main{flex:1;margin-left:240px;padding:2rem;}
-.page-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:2rem;flex-wrap:wrap;gap:1rem;}
-.page-title{font-family:'Bebas Neue',cursive;font-size:2rem;letter-spacing:0.05em;}
-.page-title span{color:var(--accent);}
-.header-actions{display:flex;gap:0.6rem;flex-wrap:wrap;}
-
-/* BUTTONS */
-.btn{padding:0.6rem 1.2rem;border:none;cursor:pointer;font-family:'Barlow',sans-serif;font-size:0.78rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;transition:all 0.2s;border-radius:2px;}
-.btn-primary{background:var(--accent);color:#000;}
-.btn-primary:hover{background:#d4eb00;transform:translateY(-1px);}
 .btn-danger{background:var(--danger);color:#fff;}
 .btn-danger:hover{background:#e02828;}
 .btn-ghost{background:transparent;color:var(--text);border:1px solid var(--border);}
@@ -91,6 +48,11 @@ body{background:var(--bg);color:var(--text);font-family:'Barlow',sans-serif;min-
 .btn-success{background:var(--success);color:#000;}
 .btn-success:hover{background:#00cc6a;}
 .btn-info{background:var(--info);color:#000;}
+.btn-info:hover{background:#0099b8;}
+.btn-orange{background:var(--accent2);color:#fff;}
+.btn-orange:hover{background:#e04400;}
+.btn-sm{padding:0.35rem 0.8rem;font-size:0.7rem;}
+
 /* STATS */
 .stats-row{display:grid;grid-template-columns:repeat(5,1fr);gap:0.8rem;margin-bottom:1.5rem;}
 .stat-card{background:var(--card);border:1px solid var(--border);padding:1.1rem 1.2rem;border-radius:4px;position:relative;overflow:hidden;}
